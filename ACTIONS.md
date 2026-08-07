@@ -15,8 +15,8 @@ History lives in git commits, not here — don't let this file accumulate a jour
 | ID | Status | Item | Next action | Pointer |
 |----|--------|------|-------------|---------|
 | M1 | DONE | Phase 0 — Interview | — | `BUSINESS_FACTS.md` |
-| M2 | IN PROGRESS | Phase 1 — Foundation | Finish folder skeleton, git init, first commit, GitHub repo + push | this file |
-| M3 | NOT STARTED | Phase 2 — Website rebuild (Wix → Vercel) | Blocked on M2 | — |
+| M2 | DONE | Phase 1 — Foundation | — | github.com/hunterpinnell27/gm-mirror-fix |
+| M3 | NOT STARTED | Phase 2 — Website rebuild (Wix → Vercel) | Start with inventorying live Wix site (url_inventory.md) | `site_migration/` |
 | M4 | NOT STARTED | Phase 3 — Payments (Stripe deposit model) | Blocked on M2 | — |
 | M5 | NOT STARTED | Phase 4 — Order pipeline | Blocked on M2 | — |
 | M6 | NOT STARTED | Phase 5 — Marketing engine | Blocked on M2-M4. GBP setup started once, paused — needs Chrome extension per-site permission approval on business.google.com | — |
