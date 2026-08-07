@@ -20,7 +20,11 @@ as facts change; don't duplicate it elsewhere.
 
 ## Assets and access
 
-- **Domain:** gmmirrorfix.com registered on GoDaddy; current site hosted/built on Wix.
+- **Domain:** gmmirrorfix.com registered AND DNS-hosted at Wix (registrar: Wix.com Ltd.,
+  nameservers ns0/ns1.wixdns.net — verified via `whois`/`dig` 2026-08-07). Hunter's initial guess
+  of GoDaddy was incorrect. Current site is also built/hosted on Wix. This simplifies the Phase 2
+  cutover (DNS and site are in the same place) but means Wix must be used for DNS record changes
+  (e.g. Search Console TXT verification) until DNS is pointed elsewhere.
 - **Google Business Profile:** does not exist yet. Queued for Phase 5 (marketing). Setup was
   started once ahead of schedule and paused at Hunter's request — Chrome extension needs a
   per-site permission approval before Claude can read/screenshot business.google.com; revisit
