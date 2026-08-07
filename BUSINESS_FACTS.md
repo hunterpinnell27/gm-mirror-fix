@@ -29,6 +29,10 @@ as facts change; don't duplicate it elsewhere.
   started once ahead of schedule and paused at Hunter's request — Chrome extension needs a
   per-site permission approval before Claude can read/screenshot business.google.com; revisit
   when Phase 5 starts.
+- **Google Search Console:** set up and verified 2026-08-07 as a Domain property (DNS TXT record
+  added to Wix DNS, host `@`/blank, auto-verified). Logged in as hunterp27@yahoo.com. Performance
+  data was still processing at setup time — check back a day later for impressions/query data
+  that should inform what Phase 2 prioritizes.
 - **Reviews:** none existing (Google or Yelp).
 - **Photos:** shop/workbench and before/after gear photos exist on the current Wix site — pull
   these during the Phase 2 site crawl/inventory rather than shooting new ones.

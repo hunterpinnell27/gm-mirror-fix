@@ -16,7 +16,7 @@ History lives in git commits, not here — don't let this file accumulate a jour
 |----|--------|------|-------------|---------|
 | M1 | DONE | Phase 0 — Interview | — | `BUSINESS_FACTS.md` |
 | M2 | DONE | Phase 1 — Foundation | — | github.com/hunterpinnell27/gm-mirror-fix |
-| M3 | IN PROGRESS | Phase 2 — Website rebuild (Wix → Vercel) | URL inventory done; next: Google Search Console setup, then build new site | `site_migration/url_inventory.md` |
+| M3 | IN PROGRESS | Phase 2 — Website rebuild (Wix → Vercel) | Search Console verified (domain property, DNS TXT method) 2026-08-07; data still processing, check back in a day for impressions/queries. Then start building new site pages. | `site_migration/url_inventory.md` |
 | M4 | NOT STARTED | Phase 3 — Payments (Stripe deposit model) | Blocked on M2 | — |
 | M5 | NOT STARTED | Phase 4 — Order pipeline | Blocked on M2 | — |
 | M6 | NOT STARTED | Phase 5 — Marketing engine | Blocked on M2-M4. GBP setup started once, paused — needs Chrome extension per-site permission approval on business.google.com | — |
