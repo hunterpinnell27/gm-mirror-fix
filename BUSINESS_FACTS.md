@@ -33,6 +33,12 @@ as facts change; don't duplicate it elsewhere.
   added to Wix DNS, host `@`/blank, auto-verified). Logged in as hunterp27@yahoo.com. Performance
   data was still processing at setup time — check back a day later for impressions/query data
   that should inform what Phase 2 prioritizes.
+- **Vercel:** account created 2026-08-07, signed up via GitHub (hunterpinnell27), logged in as
+  hunter.pinnell@outlook.com. Team name on the account is "Blackhorn Holdings" (Vercel
+  auto-generated this on signup — not something Hunter named, harmless, renamable later). 2FA was
+  offered and intentionally skipped for now. GitHub repo import to create the actual Vercel
+  project was NOT completed — it requires Hunter to click through a GitHub permission-grant
+  screen himself; see `recipes/vercel_deploy.md` for the exact next steps.
 - **Reviews:** none existing (Google or Yelp).
 - **Photos:** shop/workbench and before/after gear photos exist on the current Wix site — pull
   these during the Phase 2 site crawl/inventory rather than shooting new ones.
