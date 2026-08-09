@@ -7,6 +7,9 @@
 <meta name="description" content="Order a GM power-fold mirror repair: choose your service, pay a $50 deposit, and get shipping instructions.">
 <link rel="canonical" href="https://www.gmmirrorfix.com/order">
 <link rel="icon" href="/assets/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -14,6 +17,9 @@
   <div class="header-top">
     <a class="brand" href="/"><img src="/assets/logo.png" alt="GM Mirror Fix logo"><span class="brand-text"><span class="b1">GM MIRROR FIX</span><br><span class="b2">Power-fold mirror repair since 2016</span></span></a>
     <a class="call-btn" href="tel:4697662667">Call: 469-766-2667</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
   </div>
   <nav class="site-nav" aria-label="Primary">
     <ul>
@@ -44,17 +50,17 @@
   </ol>
 
   <div class="grid-3">
-    <div class="card">
+    <div class="card" data-reveal>
       <h3 style="margin-top:0">Spur gear replacement</h3>
       <p class="price" style="font-size:20px; font-weight:700;">$169 <span style="font-weight:400;color:var(--sub);font-size:14px;">/ $279 pair</span></p>
       <p style="color:var(--sub); font-size:13.5px;">Deposit link coming soon</p>
     </div>
-    <div class="card">
+    <div class="card" data-reveal>
       <h3 style="margin-top:0">Motor replacement</h3>
       <p class="price" style="font-size:20px; font-weight:700;">$189 <span style="font-weight:400;color:var(--sub);font-size:14px;">/ $339 pair</span></p>
       <p style="color:var(--sub); font-size:13.5px;">Deposit link coming soon</p>
     </div>
-    <div class="card">
+    <div class="card" data-reveal>
       <h3 style="margin-top:0">Combo gear + motor</h3>
       <p class="price" style="font-size:20px; font-weight:700;">$239 <span style="font-weight:400;color:var(--sub);font-size:14px;">/ $399 pair</span></p>
       <p style="color:var(--sub); font-size:13.5px;">Deposit link coming soon</p>
@@ -78,5 +84,6 @@
     <p class="disclaimer">GM Mirror Fix is an independent repair service. It is not affiliated with, endorsed by, or sponsored by General Motors, Chevrolet, GMC, or Cadillac. All vehicle makes and models are mentioned for identification purposes only.</p>
   </div>
 </footer>
+<script src="/js/site.js" defer></script>
 </body>
 </html>

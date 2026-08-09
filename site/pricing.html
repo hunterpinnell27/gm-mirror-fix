@@ -7,6 +7,9 @@
 <meta name="description" content="GM Mirror Fix pricing: spur gear part alone $40 ($75/pair), gear replacement service $169 ($279/pair), motor replacement $189 ($339/pair), combo gear+motor $239 ($399/pair). 3-day turnaround, 1-year warranty.">
 <link rel="canonical" href="https://www.gmmirrorfix.com/pricing">
 <link rel="icon" href="/assets/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -14,6 +17,9 @@
   <div class="header-top">
     <a class="brand" href="/"><img src="/assets/logo.png" alt="GM Mirror Fix logo"><span class="brand-text"><span class="b1">GM MIRROR FIX</span><br><span class="b2">Power-fold mirror repair since 2016</span></span></a>
     <a class="call-btn" href="tel:4697662667">Call: 469-766-2667</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
   </div>
   <nav class="site-nav" aria-label="Primary">
     <ul>
@@ -56,8 +62,8 @@
         <td class="price">$189.00</td>
         <td class="price">$339.00</td>
       </tr>
-      <tr>
-        <td>Combo spur gear and motor service<br><span style="color:var(--sub);font-size:13px">Both the gear and motor are replaced. Unit is lubricated and resealed. Our most common repair.</span></td>
+      <tr class="featured">
+        <td>Combo spur gear and motor service<span class="pop-badge">Most common</span><br><span style="color:var(--sub);font-size:13px">Both the gear and motor are replaced. Unit is lubricated and resealed.</span></td>
         <td class="price">$239.00</td>
         <td class="price">$399.00</td>
       </tr>
@@ -79,5 +85,6 @@
     <p class="disclaimer">GM Mirror Fix is an independent repair service. It is not affiliated with, endorsed by, or sponsored by General Motors, Chevrolet, GMC, or Cadillac. All vehicle makes and models are mentioned for identification purposes only.</p>
   </div>
 </footer>
+<script src="/js/site.js" defer></script>
 </body>
 </html>

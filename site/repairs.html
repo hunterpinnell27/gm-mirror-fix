@@ -7,6 +7,9 @@
 <meta name="description" content="Two failure modes for GM900-series power-fold mirrors: a broken plastic spur gear (95% of cases) or a worn electric motor (5% of cases). Here's how we fix each.">
 <link rel="canonical" href="https://www.gmmirrorfix.com/repairs">
 <link rel="icon" href="/assets/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -14,6 +17,9 @@
   <div class="header-top">
     <a class="brand" href="/"><img src="/assets/logo.png" alt="GM Mirror Fix logo"><span class="brand-text"><span class="b1">GM MIRROR FIX</span><br><span class="b2">Power-fold mirror repair since 2016</span></span></a>
     <a class="call-btn" href="tel:4697662667">Call: 469-766-2667</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
   </div>
   <nav class="site-nav" aria-label="Primary">
     <ul>
@@ -37,12 +43,12 @@
   <p class="lead">Includes: Tahoe, Suburban, Yukon, Denali, Sierra, and Silverado.</p>
 
   <div class="grid-2">
-    <div class="card">
+    <div class="card" data-reveal>
       <h2 style="margin-top:0">Broken spur gear</h2>
       <p>The electronic retraction feature no longer works on your side-view mirrors. The ability to fold in the large mirrors is caused by a broken spur gear deep inside the motor housing of the side view mirror. <strong>This is the issue 95% of the time.</strong></p>
       <p><strong>The fix:</strong> replacement of the gear with a redesigned spur gear made from an improved material — metal where the original GM part used plastic.</p>
     </div>
-    <div class="card">
+    <div class="card" data-reveal>
       <h2 style="margin-top:0">Broken electric drive motor</h2>
       <p>In very few cases (5%) the actual small electric motor suffers a permanent failure. However, depending on the age of your mirrors, the armature inside the motor starts to lose its torque rating and can become too weak to drive the mirror in and out. The motor still works, but when placed under load it simply will not drive the assembly with any consistent regularity.</p>
       <p><strong>The fix:</strong> replace the small electric motor inside the spring-loaded motor housing.</p>
@@ -71,5 +77,6 @@
     <p class="disclaimer">GM Mirror Fix is an independent repair service. It is not affiliated with, endorsed by, or sponsored by General Motors, Chevrolet, GMC, or Cadillac. All vehicle makes and models are mentioned for identification purposes only.</p>
   </div>
 </footer>
+<script src="/js/site.js" defer></script>
 </body>
 </html>
