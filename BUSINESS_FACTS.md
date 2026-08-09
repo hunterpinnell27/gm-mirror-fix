@@ -25,10 +25,13 @@ as facts change; don't duplicate it elsewhere.
   of GoDaddy was incorrect. Current site is also built/hosted on Wix. This simplifies the Phase 2
   cutover (DNS and site are in the same place) but means Wix must be used for DNS record changes
   (e.g. Search Console TXT verification) until DNS is pointed elsewhere.
-- **Google Business Profile:** does not exist yet. Queued for Phase 5 (marketing). Setup was
-  started once ahead of schedule and paused at Hunter's request — Chrome extension needs a
-  per-site permission approval before Claude can read/screenshot business.google.com; revisit
-  when Phase 5 starts.
+- **Google Business Profile:** claimed 2026-08-08 under hunterpinnell27@gmail.com. Turned out an
+  unclaimed listing already existed ("GM SUV & Truck Mirror Fix," exact address/phone match) —
+  claimed that instead of creating a duplicate. Category set to "Auto repair shop," business type
+  "Service business." Business ID: 06371752351910746790. **Status: unverified — Google requires a
+  video walkthrough** (location, equipment, proof Hunter manages it) since phone/postcard
+  verification wasn't offered for this listing. Parked via "Verify Later," nothing public yet.
+  Next step: Hunter needs to film that video and submit it at business.google.com/locations.
 - **Google Search Console:** set up and verified 2026-08-07 as a Domain property (DNS TXT record
   added to Wix DNS, host `@`/blank, auto-verified). Logged in as hunterp27@yahoo.com. Performance
   data was still processing at setup time — check back a day later for impressions/query data

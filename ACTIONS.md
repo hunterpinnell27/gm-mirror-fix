@@ -19,7 +19,7 @@ History lives in git commits, not here — don't let this file accumulate a jour
 | M3 | IN PROGRESS | Phase 2 — Website rebuild (Wix → Vercel) | **Deployed and verified live** at gm-mirror-fix.vercel.app 2026-08-08 (see below). Next: Hunter visually approves every page, then eventually the DNS cutover (separate explicit-yes step, not yet). | `site/`, preview: gm-mirror-fix.vercel.app |
 | M4 | NOT STARTED | Phase 3 — Payments (Stripe deposit model) | Blocked on M2 | — |
 | M5 | NOT STARTED | Phase 4 — Order pipeline | Blocked on M2 | — |
-| M6 | NOT STARTED | Phase 5 — Marketing engine | Blocked on M2-M4. GBP setup started once, paused — needs Chrome extension per-site permission approval on business.google.com | — |
+| M6 | IN PROGRESS | Phase 5 — Marketing engine | GBP claimed 2026-08-08 (existing listing found + claimed, not duplicated), parked pending Hunter's verification video — no text/phone option offered, video is the only method Google gave us. Flagship video script drafted (`marketing/video_script_flagship.md`) — same filming session can double as the verification video. | `marketing/`, BUSINESS_FACTS.md |
 | M7 | NOT STARTED | Phase 6 — Son handoff (Kade) | Blocked on M3-M5 | — |
 
 ## Visual redesign (2026-08-08)
