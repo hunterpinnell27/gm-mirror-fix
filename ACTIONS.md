@@ -22,6 +22,16 @@ History lives in git commits, not here — don't let this file accumulate a jour
 | M6 | NOT STARTED | Phase 5 — Marketing engine | Blocked on M2-M4. GBP setup started once, paused — needs Chrome extension per-site permission approval on business.google.com | — |
 | M7 | NOT STARTED | Phase 6 — Son handoff (Kade) | Blocked on M3-M5 | — |
 
+## Visual redesign (2026-08-08)
+
+Full visual refresh per Hunter's request ("free reign," then "done with black and yellow").
+Navy + teal palette, Manrope font, icon cards, mobile hamburger nav, FAQ accordion, photo
+lightbox, scroll-reveal animation. QA'd (0 broken links, all 22 pages consistent) and confirmed
+live on the Vercel preview via curl. Note for future sessions: the local preview browser tool hit
+a few transient rendering glitches during QA (0x0 viewport, washed-out screenshots) — always
+double-check a suspicious screenshot with a `javascript_exec` state check before treating it as a
+real bug; both times it was the tool, not the site.
+
 ## Live preview
 
 **gm-mirror-fix.vercel.app** — deployed 2026-08-08, project under Vercel team "Blackhorn
