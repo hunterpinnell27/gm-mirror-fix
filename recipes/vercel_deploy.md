@@ -1,11 +1,14 @@
 # Recipe: Connect GitHub repo to Vercel and deploy
 
-**Status as of 2026-08-07:** Vercel account created (hunterpinnell27, via GitHub), logged in as
-hunter.pinnell@outlook.com. Team name on the account is "Blackhorn Holdings" (auto-generated on
-signup — harmless, can rename later in Vercel team settings if it bugs you). GitHub
-(hunterpinnell27) is already linked under Account → Authentication. 2FA was offered and
-intentionally skipped for now — can turn on anytime under Account → Authentication → Two-Factor
-Authentication.
+**Status as of 2026-08-08: DONE.** Deployed and verified live at **gm-mirror-fix.vercel.app**
+(under Vercel team "Blackhorn Holdings"). Steps below are kept for reference — e.g. if a second
+project ever needs the same setup.
+
+**What actually worked:** browser automation kept desyncing (Claude's controlled tab not matching
+what Hunter saw on his own screen). Switched to plain-text narration instead — Hunter drove his
+own browser, screenshotted each step, Claude read the screenshot and gave the next instruction.
+That worked cleanly on the first try. Default to this approach over browser automation for any
+future account/OAuth flows.
 
 **This step needs Hunter at the keyboard** — it involves clicking through a GitHub permission
 grant tied to your identity, which can't be done by Claude on your behalf.

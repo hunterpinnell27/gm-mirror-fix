@@ -16,11 +16,20 @@ History lives in git commits, not here — don't let this file accumulate a jour
 |----|--------|------|-------------|---------|
 | M1 | DONE | Phase 0 — Interview | — | `BUSINESS_FACTS.md` |
 | M2 | DONE | Phase 1 — Foundation | — | github.com/hunterpinnell27/gm-mirror-fix |
-| M3 | IN PROGRESS | Phase 2 — Website rebuild (Wix → Vercel) | Site built, QA'd (links, meta tags, mobile), packing instructions drafted. BLOCKED on Vercel repo import — needs Hunter live at the keyboard, see `recipes/vercel_deploy.md`. | `site/`, `site_migration/`, `recipes/vercel_deploy.md` |
+| M3 | IN PROGRESS | Phase 2 — Website rebuild (Wix → Vercel) | **Deployed and verified live** at gm-mirror-fix.vercel.app 2026-08-08 (see below). Next: Hunter visually approves every page, then eventually the DNS cutover (separate explicit-yes step, not yet). | `site/`, preview: gm-mirror-fix.vercel.app |
 | M4 | NOT STARTED | Phase 3 — Payments (Stripe deposit model) | Blocked on M2 | — |
 | M5 | NOT STARTED | Phase 4 — Order pipeline | Blocked on M2 | — |
 | M6 | NOT STARTED | Phase 5 — Marketing engine | Blocked on M2-M4. GBP setup started once, paused — needs Chrome extension per-site permission approval on business.google.com | — |
 | M7 | NOT STARTED | Phase 6 — Son handoff (Kade) | Blocked on M3-M5 | — |
+
+## Live preview
+
+**gm-mirror-fix.vercel.app** — deployed 2026-08-08, project under Vercel team "Blackhorn
+Holdings," root directory set to `site`, auto-deploys on every push to `main`. Verified live via
+curl: homepage 200, clean URLs work (`/pricing`, `/vehicles/tahoe`), the one legacy-URL redirect
+308s correctly to `/blog/gm-trucks-mirror-fix`, sitemap.xml serves. This is a preview only — NOT
+the live gmmirrorfix.com domain, no DNS changed. Hunter should visually click through it on
+phone + desktop before we talk about a custom domain or cutover.
 
 ## NEXT SESSION STARTS HERE
 
@@ -64,17 +73,14 @@ and the one legacy post — everything else matches 1:1 thanks to Vercel's clean
    scraped, it's client-rendered on Wix). Considered low priority and not worth further scraping
    effort, since it's one low-traffic legacy post, not a primary ranking asset.
 
-**Vercel — genuinely blocked, needs Hunter live:**
-Account created (hunterpinnell27 via GitHub, logged in as hunter.pinnell@outlook.com, team
-"Blackhorn Holdings" auto-named by Vercel). 2FA offered and skipped for now. The actual repo
-import could NOT be completed — it requires Hunter to click through a GitHub permission-grant
-screen tied to his identity, which Claude cannot do on his behalf, and browser automation wasn't
-reliably showing Hunter the same page Claude was controlling tonight (worth debugging *why*
-before relying on it again — possibly a multi-window/multi-tab mismatch on his end).
-**`recipes/vercel_deploy.md` has the exact, tested-so-far steps** — when Hunter's back, this
-should take under 5 minutes done manually rather than through browser automation.
+**Vercel — resolved 2026-08-08.** The earlier blocker (browser automation not reliably showing
+Hunter the same page Claude was controlling) was worked around by switching to plain-text,
+step-by-step narration with Hunter driving his own browser and screenshotting each step back.
+That approach worked cleanly on the first try — worth defaulting to it over browser automation
+for any future account/OAuth flows. Repo imported, root directory set to `site`, deployed, and
+verified live (see "Live preview" section above).
 
-**Next concrete step once Hunter's back:** walk through `recipes/vercel_deploy.md` together
-(Hunter clicking, Claude narrating) to get a preview URL live. This is NOT the DNS cutover —
-Wix stays live until the preview is approved and Search Console shows the current site healthy,
-per Phase 2 step 6 in `CLAUDE.md`.
+**Next concrete step:** Hunter reviews the live preview (gm-mirror-fix.vercel.app) on phone and
+desktop, and gives explicit yes/no on the open items listed above (packing instructions, 95/5
+split language) before this becomes a candidate for the real DNS cutover. Cutover itself is a
+separate, explicit-yes step per Phase 2 step 6 in `CLAUDE.md` — Wix stays live in the meantime.
