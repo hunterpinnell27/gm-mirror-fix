@@ -40,6 +40,37 @@
 </script>
 </head>
 <body>
+<div id="intro-overlay" aria-hidden="true">
+  <button id="intro-skip" type="button">Skip</button>
+  <svg id="intro-mirror" viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="mirrorBody" x1="15%" y1="8%" x2="80%" y2="95%">
+        <stop offset="0%" stop-color="#171c23"/>
+        <stop offset="42%" stop-color="#232b35"/>
+        <stop offset="56%" stop-color="#8b969d"/>
+        <stop offset="100%" stop-color="#dde3e5"/>
+      </linearGradient>
+      <linearGradient id="mirrorFin" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#20262e"/>
+        <stop offset="100%" stop-color="#12161b"/>
+      </linearGradient>
+    </defs>
+    <!-- fixed mount/fin, bolted to the door -->
+    <g id="mirror-mount">
+      <path d="M328,300 L320,235 L410,20 L445,35 L355,320 Z" fill="url(#mirrorFin)" stroke="#0ea79c" stroke-width="1.5" stroke-opacity=".35"/>
+      <circle cx="352" cy="303" r="9" fill="none" stroke="#4a5560" stroke-width="3"/>
+    </g>
+    <!-- mirror head, rotates around the mount pivot -->
+    <g id="mirror-head">
+      <path d="M335,225 C300,165 235,135 165,132 C100,129 45,150 20,192 C2,222 2,255 22,283 C45,315 95,333 160,338 C230,343 295,333 322,305 C336,290 340,265 335,240 Z" fill="url(#mirrorBody)" stroke="#0b7f76" stroke-width="1.5" stroke-opacity=".4"/>
+    </g>
+    <g id="fix-gear">
+      <circle cx="245" cy="68" r="22" fill="none" stroke="#0ea79c" stroke-width="4"/>
+      <path d="M245 42v8M245 86v8M275 68h-8M215 68h-8M266 47l-6 6M224 83l-6 6M266 89l-6-6M224 47l-6 6" stroke="#0ea79c" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </svg>
+  <p id="intro-tag">Power-fold mirror repair since 2016</p>
+</div>
 <header class="site">
   <div class="header-top">
     <a class="brand" href="/">
@@ -83,15 +114,20 @@
   <p>Look around and let me know if you have any questions.</p>
 
   <div class="grid-2">
-    <div class="card" data-reveal>
+    <a class="card card-link" href="/pictures.html" data-reveal>
       <span class="icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></span>
       <h3>Replacement gear</h3>
       <p>A redesigned, strengthened spur gear — metal where the OEM part used plastic. Available as a DIY part if you have an arbor press, or installed by us.</p>
-    </div>
+      <span class="card-cta">See real photos of the gear &amp; motor &rarr;</span>
+    </a>
     <div class="card" data-reveal>
       <span class="icon"><svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span>
       <h3>Gear + Motor repair service</h3>
       <p>Mail your mirror in — we replace both the gear and motor together, lubricate, and reseal the unit. Our only mail-in service, because once the housing is open there's no reason to leave the old part in.</p>
+      <div class="video-placeholder">
+        <span class="play-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M10 8.5v7l6-3.5-6-3.5z" fill="currentColor" stroke="none"/></svg></span>
+        <span>Full repair video — coming soon</span>
+      </div>
     </div>
   </div>
 
