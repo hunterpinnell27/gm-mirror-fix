@@ -1,8 +1,19 @@
 # Flagship Video Script — "Why Your GM Mirror Won't Fold (And How to Fix It for $40)"
 
 **Purpose (Phase 5 of `CLAUDE.md`):** the one flagship DIY video. Builds credibility, ranks for
-search, and funnels viewers two ways — most will watch, decide it's fiddly, and mail their mirror
-in; confident DIYers buy the $40 gear and do it themselves. Either way, GM Mirror Fix wins.
+search, and funnels viewers two ways — most will watch, decide it's fiddly (and, honestly, a
+little dangerous — see below), and mail their mirror in; confident DIYers with the right tools
+buy the $40 gear and do it themselves. Either way, GM Mirror Fix wins.
+
+**Key safety fact driving the funnel — get this right, it's the real reason to mail it in:**
+the internal repair isn't just unscrewing some covers. The gear sits on a spring-loaded shaft
+under real compression, and taking it apart safely requires an arbor press to control that spring
+as it's released. Someone attempting this without a press can have the spring let go
+uncontrolled — that's a genuine injury risk (hands/face) and enough force to put a hole in a
+garage ceiling. This is true, it's not a scare tactic, and it's the single most honest reason for
+most viewers to mail the mirror in rather than order the $40 gear and try the internal repair
+themselves. Removing the mirror *from the truck* (unbolting it to ship in) has none of this risk —
+it's the internal teardown that needs the press.
 
 **Format note:** this is a beat sheet with talking points, not a word-for-word script. Say it in
 your own voice — the whole point is that it sounds like you, on camera, being straight with
@@ -52,22 +63,29 @@ Two failure modes, straight from `/repairs.html`:
 
 **2:30–7:30 — The actual repair, on camera**
 This is the core of the video and the part that builds real trust — show it honestly, including
-the fiddly parts, don't skip steps to make it look easier than it is.
+the fiddly parts and the genuinely risky part, don't skip steps to make it look easier or safer
+than it is.
 1. Removing the mirror from the door (condensed version of the 16-step
    `/mirror-removal-instructions.html` — you don't need every step on camera, hit the highlights:
-   the triangle cover, the door skin pop, fishing the wires through)
-2. Opening the motor housing — this is the part nobody else shows. Point out it's a press-fit
-   clamshell, "not designed to be serviced," which is exactly why this was hard to figure out
-   originally
+   the triangle cover, the door skin pop, fishing the wires through). Call out on camera that
+   *this* part — getting the mirror off the truck — is genuinely safe DIY territory for anyone,
+   no special tools, no risk. This is the part most viewers can and should do themselves even if
+   they mail the rest in.
+2. Opening the motor housing — this is the part nobody else shows, and the part where you put the
+   safety warning front and center: "This shaft is spring-loaded and under real compression right
+   now. I'm using an arbor press to control it as it comes apart. If you try this without one and
+   that spring lets go, it can hurt you — hands, face — or put a hole in your ceiling. This is the
+   actual reason I tell people to mail this part in." Show the arbor press doing its job.
 3. Show the broken gear next to the new metal one — this is your best visual moment, use it
 4. Install the new gear, reseal, reassemble
 5. Test it — mirror folds in and out clean
 
 **7:30–8:30 — The honest funnel moment**
-Say directly: "If you got this far and it felt like a lot — totally fair, mail it in and we'll
-handle it, $169 gets you the gear replaced and shipped back in 3 days. If you're the type who'd
-rather do it yourself, the gear alone is $40, link's in the description." No hard sell, just the
-honest choice — that's what the whole business is built on.
+Lead with the safety fact, not "it felt like a lot": "The mirror-removal part — anyone can do
+that, and the instructions are free on the site either way. The internal repair you just watched
+needs an arbor press for the spring, and if you don't have one, mail it in — $169 gets the gear
+replaced and shipped back in 3 days. If you've got a press and know what you're doing, the gear
+alone is $40, link's in the description." No hard sell — the honest, physical reason is the sell.
 
 **8:30–9:00 — Close**
 "Repairing GM mirrors since 2016, here in McKinney, Texas." Point to the removal instructions and
@@ -87,14 +105,21 @@ pricing pages for anyone ready to start.
 
 ```
 Your GM truck or SUV's power-fold mirror stopped working? 95% of the time it's one small plastic
-gear — not a $1,000 mirror. This video shows the actual repair, start to finish.
+gear — not a $1,000 mirror. This video shows the actual repair, start to finish — including why
+the internal teardown needs an arbor press (there's a spring-loaded shaft under real compression
+in there, and it's not safe to open without one).
 
 Covers: 2007-2014 Chevrolet Tahoe, Suburban, Silverado | GMC Yukon, Yukon Denali, Sierra |
 Cadillac Escalade
 
-Buy just the gear (DIY): [link to /pricing]
-Mail it in, we fix it: [link to /order]
-Full removal instructions: [link to /mirror-removal-instructions]
+Removing the mirror from your truck is safe DIY territory — full instructions free either way:
+[link to /mirror-removal-instructions]
+
+Have an arbor press and want to do the internal repair yourself? Gear alone is $40:
+[link to /pricing]
+
+Would rather not mess with a compressed spring? Mail it in, we handle it, 3-day turnaround:
+[link to /order]
 
 GM Mirror Fix — repairing GM power-fold mirrors since 2016, McKinney, TX.
 Independent repair service, not affiliated with General Motors.
