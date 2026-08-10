@@ -63,20 +63,6 @@ header.site {
 .brand-text .b1 { font-weight: 800; font-size: 16.5px; letter-spacing: .01em; }
 .brand-text .b2 { font-size: 11.5px; color: #a9adb5; font-weight: 500; }
 
-.header-actions { display: flex; align-items: center; gap: 10px; }
-.call-btn {
-  background: linear-gradient(180deg, #17b3a7, var(--accent));
-  color: var(--accent-ink);
-  font-weight: 800;
-  font-size: 13.5px;
-  padding: 10px 16px;
-  border-radius: 999px;
-  text-decoration: none;
-  white-space: nowrap;
-  box-shadow: var(--shadow-sm);
-  transition: transform .15s ease, box-shadow .15s ease;
-}
-.call-btn:hover { transform: translateY(-1px); box-shadow: var(--shadow-md); color: var(--accent-ink); }
 
 .nav-toggle {
   display: none;
@@ -150,6 +136,21 @@ nav.site-nav a[aria-current="page"] { color: var(--accent); border-bottom-color:
 .nav-dropdown a:hover { background: rgba(255,255,255,.06); color: #fff; }
 .nav-dropdown a[aria-current="page"] { border-bottom-color: transparent; background: rgba(14,167,156,.14); }
 
+nav.site-nav .nav-text-item { margin-left: auto; display: flex; align-items: center; }
+nav.site-nav .nav-text-btn {
+  display: flex; align-items: center;
+  background: linear-gradient(180deg, #17b3a7, var(--accent));
+  color: var(--accent-ink);
+  font-weight: 800;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border-bottom: none;
+  white-space: nowrap;
+  box-shadow: var(--shadow-sm);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+nav.site-nav .nav-text-btn:hover { color: var(--accent-ink); transform: translateY(-1px); box-shadow: var(--shadow-md); }
+
 @media (max-width: 860px) {
   .nav-toggle { display: inline-flex; }
   nav.site-nav { max-height: 0; overflow: hidden; transition: max-height .25s ease; }
@@ -171,6 +172,9 @@ nav.site-nav a[aria-current="page"] { color: var(--accent); border-bottom-color:
   }
   .nav-dropdown a { padding: 11px 4px; border-bottom: 1px solid rgba(255,255,255,.07); border-left: 3px solid transparent; }
   .nav-dropdown a[aria-current="page"] { border-bottom-color: rgba(255,255,255,.07); border-left-color: var(--accent); padding-left: 10px; background: none; }
+
+  nav.site-nav .nav-text-item { margin-left: 0; margin-top: 12px; }
+  nav.site-nav .nav-text-btn { justify-content: center; padding: 13px 16px; }
 }
 
 /* ---------- Hero ---------- */
@@ -429,10 +433,11 @@ footer.site .disclaimer { max-width: 62ch; margin-top: 20px; font-size: 12px; co
   main { padding: 32px 0 48px; }
   .hero { padding: 40px 0 34px; }
   .header-top { padding: 12px 16px; gap: 8px; }
-  .brand img { width: 32px; height: 32px; }
-  .brand-text .b1 { font-size: 14px; white-space: nowrap; }
-  .brand-text .b2 { font-size: 10px; white-space: nowrap; }
-  .call-btn { padding: 9px 13px; font-size: 12.5px; }
+  .brand { min-width: 0; flex-shrink: 1; }
+  .brand img { width: 32px; height: 32px; flex-shrink: 0; }
+  .brand-text { min-width: 0; overflow: hidden; }
+  .brand-text .b1 { font-size: 15px; white-space: nowrap; }
+  .brand-text .b2 { display: none; }
 }
 
 /* ---------- Homepage intro animation ---------- */
