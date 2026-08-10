@@ -14,6 +14,37 @@ as facts change; don't duplicate it elsewhere.
 - **Parts sourcing:** gears and motors both sourced from China via Amazon/eBay; short lead time
   to restock. A complete pre-assembled gear+motor unit is also available, which reduces labor
   and repair time vs. installing gear and motor separately.
+- **Parts cost (2026-08-10):** gear alone $16, motor alone $16, full housing assembly (motor +
+  gear + housing pre-assembled) $32.
+- **Idea (parked, not yet actioned):** Hunter wants to explore getting a fully manufactured unit
+  made with the metal spur gear built in from the start. Why: it would let Kade or Hunter skip
+  opening the existing housing and doing the dangerous spring-loaded-shaft disassembly entirely
+  — removes both the safety risk and a chunk of labor time. Needs its own research thread later
+  (manufacturer, MOQ, cost/unit) — not required to finish the current pricing pass.
+
+## Pricing (current — updated 2026-08-10, supersedes the table in `CLAUDE.md`)
+
+The genesis file's pricing table reflects the old Wix-era prices and is now stale; this is the
+live reference going forward.
+
+| Service | One mirror | Pair |
+|---|---|---|
+| Spur gear alone (DIY part — you install it) | $45 | $85 |
+| Gear + Motor repair service (mail-in, we handle it) | $279 | $549 |
+
+- **Why it changed:** prices hadn't moved in ~10 years and didn't price in bench labor at all.
+  Parts cost $16 (gear or motor alone) or $32 (pre-assembled housing); bench time is ~2 hours per
+  mirror start to finish. Even at $279, that's still a ~70% discount vs. a ~$1,000 dealer mirror
+  replacement, and GM Mirror Fix has no known competitor offering this repair.
+- **"Motor replacement" and "gear replacement" tiers were eliminated entirely** — Hunter's actual
+  shop policy has always been to replace both together once the housing is open ("while you're in
+  there"), and he has never performed a motor-only job. The site now only offers the DIY gear part
+  and the combined Gear + Motor service — no separate gear-only or motor-only service tier.
+  Diagnosis content (which part likely failed) is still kept on the symptom pages for SEO/education,
+  but no longer maps to a different price.
+- **Pair pricing is intentionally not a strict 2x-minus-discount ratio** — it's priced to always
+  beat two separate single-mirror orders (so the pair option remains the rational choice), with
+  some room left to raise prices again later without another full site pass.
 - **Operator (Phase 6):** Kade will run repairs day-to-day. Very comfortable with computers/tech
   — the runbook doesn't need to be dumbed down, but should stay plain-English/no-git per the
   genesis file's standing approach.
