@@ -12,6 +12,30 @@
     });
   }
 
+  // "More" nav dropdown
+  var navMore = document.querySelector(".nav-more");
+  if (navMore) {
+    var moreToggle = navMore.querySelector(".nav-more-toggle");
+    function closeMore() {
+      navMore.classList.remove("open");
+      moreToggle.setAttribute("aria-expanded", "false");
+    }
+    moreToggle.addEventListener("click", function (e) {
+      e.stopPropagation();
+      var open = navMore.classList.toggle("open");
+      moreToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    navMore.querySelectorAll(".nav-dropdown a").forEach(function (a) {
+      a.addEventListener("click", closeMore);
+    });
+    document.addEventListener("click", function (e) {
+      if (!navMore.contains(e.target)) closeMore();
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") closeMore();
+    });
+  }
+
   // Scroll reveal
   var revealEls = document.querySelectorAll("[data-reveal]");
   if (revealEls.length && "IntersectionObserver" in window) {
