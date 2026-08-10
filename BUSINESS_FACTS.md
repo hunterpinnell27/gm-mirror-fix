@@ -49,6 +49,31 @@ live reference going forward.
   — the runbook doesn't need to be dumbed down, but should stay plain-English/no-git per the
   genesis file's standing approach.
 
+## Payment model (current — updated 2026-08-10, supersedes the deposit model in `CLAUDE.md` Phase 3)
+
+The genesis file describes a $50-deposit-then-balance model. Hunter decided against it — replaced
+with a single full payment, collected only after the mirror physically arrives and is confirmed
+repairable, before the repair starts:
+
+1. Customer orders (DIY gear part, or the mail-in repair service) — no payment for the repair
+   service at this step, just an order number (RMA) and shipping instructions. (The DIY gear part
+   is a normal up-front purchase, unrelated to this flow — it's a physical product shipped to the
+   customer, not a mail-in repair.)
+2. Customer ships their mirror in.
+3. Hunter receives it and confirms it's repairable.
+4. Hunter sends one Stripe Payment Link for the full service price. Nothing is charged before this.
+5. Once paid, Hunter repairs and ships it back — 3-day turnaround from payment, not from receipt.
+
+- **Why:** removes an unnecessary extra step (deposit-then-balance was two payments for one job),
+  and it's a stronger trust pitch for a stranger mailing in a part they own — "we don't charge you
+  until your mirror is in our hands and we've confirmed we can fix it." Also eliminates all
+  deposit-refund logic — nothing is ever charged for an unrepairable unit, so there's nothing to
+  refund.
+- **Site copy updated to match** (`pricing.html`, `order.html`, `faq.html` — including the FAQPage
+  schema) — all $50-deposit language removed 2026-08-10.
+- **Still blocked on Stripe setup**, which stays parked per Hunter's "hold off on Stripe for now" —
+  this is the agreed target flow for whenever that resumes, not something built yet.
+
 ## Assets and access
 
 - **Domain:** gmmirrorfix.com registered AND DNS-hosted at Wix (registrar: Wix.com Ltd.,
