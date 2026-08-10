@@ -10,6 +10,16 @@ as facts change; don't duplicate it elsewhere.
   ~20/week (≈3/day average) growth target, so capacity is not the bottleneck.
 - **Turnaround promised:** 3 days (order received → shipped back).
 - **Warranty:** 1 year on the repair.
+- **Contact preference (updated 2026-08-10):** Hunter no longer wants to take phone calls — all
+  customer contact should be text-first. Site-wide "Call" CTAs, `tel:` links, and phone labels
+  were changed to "Text" / `sms:` on 2026-08-10 — same number (469-766-2667, confirmed to be
+  Hunter's mobile, so it can receive texts). Longer-term, Hunter wants any customer assistance
+  handled by AI rather than him answering personally — planned approach: an AI chat widget on the
+  website (grounded on real site content, no invented claims) as the primary self-serve channel;
+  incoming texts to the business number stay human-answered (Hunter/Kade) for now rather than
+  auto-replied by AI, since unattended AI-drafted texts to real customers is a bigger, riskier
+  build (would need a texting platform, e.g. Twilio) — revisit once volume justifies it. Chat
+  widget itself not yet built.
 - **Job mix:** most jobs are combo (gear + motor replacement together).
 - **Parts sourcing:** gears and motors both sourced from China via Amazon/eBay; short lead time
   to restock. A complete pre-assembled gear+motor unit is also available, which reduces labor
