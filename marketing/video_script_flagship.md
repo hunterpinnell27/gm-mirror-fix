@@ -1,9 +1,9 @@
-# Flagship Video Script — "Why Your GM Mirror Won't Fold (And How to Fix It for $40)"
+# Flagship Video Script — "Why Your GM Mirror Won't Fold (And How to Fix It for $45)"
 
 **Purpose (Phase 5 of `CLAUDE.md`):** the one flagship DIY video. Builds credibility, ranks for
 search, and funnels viewers two ways — most will watch, decide it's fiddly (and, honestly, a
 little dangerous — see below), and mail their mirror in; confident DIYers with the right tools
-buy the $40 gear and do it themselves. Either way, GM Mirror Fix wins.
+buy the $45 gear and do it themselves. Either way, GM Mirror Fix wins.
 
 **Key safety fact driving the funnel — get this right, it's the real reason to mail it in:**
 the internal repair isn't just unscrewing some covers. The gear sits on a spring-loaded shaft
@@ -11,7 +11,7 @@ under real compression, and taking it apart safely requires an arbor press to co
 as it's released. Someone attempting this without a press can have the spring let go
 uncontrolled — that's a genuine injury risk (hands/face) and enough force to put a hole in a
 garage ceiling. This is true, it's not a scare tactic, and it's the single most honest reason for
-most viewers to mail the mirror in rather than order the $40 gear and try the internal repair
+most viewers to mail the mirror in rather than order the $45 gear and try the internal repair
 themselves. Removing the mirror *from the truck* (unbolting it to ship in) has none of this risk —
 it's the internal teardown that needs the press.
 
@@ -26,9 +26,9 @@ trust and ranks), short enough that people finish it.
 
 ## Working titles (pick one, or A/B two as separate uploads later)
 
-- "GM Mirror Won't Fold? Here's the $40 Fix (Tahoe/Suburban/Yukon/Escalade/Silverado/Sierra)"
+- "GM Mirror Won't Fold? Here's the $45 Fix (Tahoe/Suburban/Yukon/Escalade/Silverado/Sierra)"
 - "Why Your 2007-2014 GM Truck's Power Mirror Stopped Folding — And How to Fix It"
-- "The $1,000 Mirror Problem That's Actually a $40 Part"
+- "The $1,000 Mirror Problem That's Actually a $45 Part"
 
 SEO note: put the vehicle names and "won't fold" / "power mirror" in the title — that's the exact
 phrase people search.
@@ -36,7 +36,7 @@ phrase people search.
 ## Thumbnail ideas
 
 - Split image: cracked plastic gear in your hand (left) vs. the new metal gear (right), bold text
-  "$40 FIX" or "IT'S THIS GEAR"
+  "$45 FIX" or "IT'S THIS GEAR"
 - You holding the broken gear fragments up to camera, mirror housing open on the bench behind you
 
 ---
@@ -61,6 +61,10 @@ Two failure modes, straight from `/repairs.html`:
 - Total silence → motor (5% of cases)
 - Mirror vibrates at highway speed → also the gear, once it's got play in it
 
+Worth a line here: viewers don't need to self-diagnose which one it is. Once the housing's open,
+there's no reason to leave the older part in — the mail-in service always replaces both the gear
+and motor together. This is just about understanding what's actually broken, not picking a tier.
+
 **2:30–7:30 — The actual repair, on camera**
 This is the core of the video and the part that builds real trust — show it honestly, including
 the fiddly parts and the genuinely risky part, don't skip steps to make it look easier or safer
@@ -83,9 +87,11 @@ than it is.
 **7:30–8:30 — The honest funnel moment**
 Lead with the safety fact, not "it felt like a lot": "The mirror-removal part — anyone can do
 that, and the instructions are free on the site either way. The internal repair you just watched
-needs an arbor press for the spring, and if you don't have one, mail it in — $169 gets the gear
-replaced and shipped back in 3 days. If you've got a press and know what you're doing, the gear
-alone is $40, link's in the description." No hard sell — the honest, physical reason is the sell.
+needs an arbor press for the spring, and if you don't have one, mail it in — gear and motor
+replaced together for $279. You're not charged anything until it arrives and we've confirmed it's
+actually repairable, then it's shipped back 3 days after that. No deposit, nothing up front. If
+you've got a press and know what you're doing, the gear alone is $45, link's in the description."
+No hard sell — the honest, physical reason is the sell.
 
 **8:30–9:00 — Close**
 "Repairing GM mirrors since 2016, here in McKinney, Texas." Point to the removal instructions and
@@ -101,6 +107,11 @@ pricing pages for anyone ready to start.
 - The redesigned gear being threaded onto the worm gear
 - Mirror folding in/out cleanly after the fix (the "money shot" — save for last)
 
+Reference for framing/lighting: the site's `/pictures.html` page now has real bench photos (clean
+white-towel background, tight framing) — motor housing, the broken gear/spring assembly, and the
+new gear on the worm shaft. Worth matching that same look for consistency between the site and
+the video, even though these are just reference stills, not something to reuse as video footage.
+
 ## Description template (fill in the actual YouTube link structure when uploading)
 
 ```
@@ -115,10 +126,12 @@ Cadillac Escalade
 Removing the mirror from your truck is safe DIY territory — full instructions free either way:
 [link to /mirror-removal-instructions]
 
-Have an arbor press and want to do the internal repair yourself? Gear alone is $40:
+Have an arbor press and want to do the internal repair yourself? Gear alone is $45:
 [link to /pricing]
 
-Would rather not mess with a compressed spring? Mail it in, we handle it, 3-day turnaround:
+Would rather not mess with a compressed spring? Mail it in — gear and motor replaced together
+for $279. No payment until it arrives and we've confirmed it's repairable, then it ships back
+3 days after that. No deposit, nothing up front:
 [link to /order]
 
 GM Mirror Fix — repairing GM power-fold mirrors since 2016, McKinney, TX.
@@ -134,3 +147,10 @@ Independent repair service, not affiliated with General Motors.
   `/location.html` — this doubles as a support-email killer per Phase 4)
 
 **Status: drafted, not recorded. Needs Hunter's voice pass and an actual filming session.**
+
+**Refreshed 2026-08-10** to match the current live site: gear price $40→$45 ($85/pair), the
+gear-only/motor-only service tiers are gone (one combined Gear + Motor service, $279/$549), and
+the payment model changed from a $50 deposit to no payment at all until the mirror arrives and is
+confirmed repairable, then a 3-day turnaround from payment (not from receipt). Also live now:
+gmmirrorfix.com itself (DNS cutover done), so links in the description can point straight to the
+real domain instead of the Vercel preview URL.
