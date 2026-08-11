@@ -16,7 +16,7 @@ History lives in git commits, not here — don't let this file accumulate a jour
 |----|--------|------|-------------|---------|
 | M1 | DONE | Phase 0 — Interview | — | `BUSINESS_FACTS.md` |
 | M2 | DONE | Phase 1 — Foundation | — | github.com/hunterpinnell27/gm-mirror-fix |
-| M3 | IN PROGRESS | Phase 2 — Website rebuild (Wix → Vercel) | **Deployed and verified live** at gm-mirror-fix.vercel.app 2026-08-08 (see below). Next: Hunter visually approves every page, then eventually the DNS cutover (separate explicit-yes step, not yet). | `site/`, preview: gm-mirror-fix.vercel.app |
+| M3 | IN PROGRESS | Phase 2 — Website rebuild (Wix → Vercel) | **DNS cutover done 2026-08-10.** gmmirrorfix.com and www.gmmirrorfix.com both point to Vercel, SSL valid, apex 308-redirects to www. Verified live via fresh DNS lookup (8.8.8.8) and page content check. **Wix stays active ~2 weeks** as safety net — watch Search Console for impression drops before canceling Wix. Next: submit sitemap + request indexing in Search Console. | `site/`, live: gmmirrorfix.com |
 | M4 | NOT STARTED | Phase 3 — Payments (Stripe deposit model) | Blocked on M2 | — |
 | M5 | NOT STARTED | Phase 4 — Order pipeline | Blocked on M2 | — |
 | M6 | IN PROGRESS | Phase 5 — Marketing engine | GBP claimed 2026-08-08 (existing listing found + claimed, not duplicated), parked pending Hunter's verification video — no text/phone option offered, video is the only method Google gave us. Flagship video script drafted (`marketing/video_script_flagship.md`) — same filming session can double as the verification video. | `marketing/`, BUSINESS_FACTS.md |
