@@ -84,6 +84,13 @@ repairable, before the repair starts:
 - **Still blocked on Stripe setup**, which stays parked per Hunter's "hold off on Stripe for now" —
   this is the agreed target flow for whenever that resumes, not something built yet.
 
+## Business structure
+
+- **Currently a sole proprietorship** — operating under Hunter's own name, no EIN, no LLC.
+  **Plan:** formalize (get an EIN, form an LLC) later if volume grows enough to justify it — not
+  needed to start. Stripe supports sole proprietors directly (SSN in place of EIN during signup,
+  business type = "Individual / Sole Proprietorship").
+
 ## Assets and access
 
 - **Domain:** gmmirrorfix.com registered AND DNS-hosted at Wix (registrar: Wix.com Ltd.,
