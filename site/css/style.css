@@ -276,6 +276,7 @@ p { max-width: 72ch; }
 .video-placeholder .play-icon { width: 30px; height: 30px; color: var(--sub); opacity: .55; }
 .video-placeholder .play-icon svg { width: 100%; height: 100%; }
 
+#video { scroll-margin-top: 110px; }
 .video-embed {
   margin-top: 16px; position: relative; width: 100%; padding-bottom: 56.25%;
   border-radius: 10px; overflow: hidden; background: #000;
@@ -320,6 +321,7 @@ table.pricing tr.featured td { background: #eafaf8; }
   box-shadow: none;
 }
 .cta.secondary:hover { border-color: var(--accent-deep); color: var(--ink); }
+.hero-ctas { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
 
 /* ---------- Vehicle list ---------- */
 .vehicle-list { display: flex; flex-wrap: wrap; gap: 9px; margin: 16px 0; padding: 0; list-style: none; }
